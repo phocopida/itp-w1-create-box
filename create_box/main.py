@@ -9,7 +9,7 @@ def create_box(height, width, character):
             
         return box
     else:
-        print "try again"
+        print ("try again")
 
 
 if __name__ == '__main__':
@@ -27,4 +27,4 @@ def create_empty_box(height, width, character):
                 box += character + " "*(width-2) + character+"\n"
         return box
     else:
-        print "try again"
+        print ("try again")
